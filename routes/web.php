@@ -4,6 +4,7 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ListBarangController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\RegisterController;
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
@@ -27,3 +28,4 @@ Route::get('/login', [LoginController::class, 'showLogin'])->name('login');
 Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
 Route::get('/list', [ListBarangController::class, 'listBarang'])->name('listBarang');
 Route::get('/register', [RegisterController::class, 'register'])->name('register');
+Route::get('/profile', [ProfileController::class, 'profile'])->name('profile');
