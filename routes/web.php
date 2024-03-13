@@ -29,3 +29,4 @@ Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashb
 Route::get('/list', [ListBarangController::class, 'listBarang'])->name('listBarang');
 Route::get('/register', [RegisterController::class, 'register'])->name('register');
 Route::get('/profile', [ProfileController::class, 'profile'])->name('profile');
+Route::get('/pembayaran', [ProfileController::class, 'pembayaran'])->name('pembayaran');

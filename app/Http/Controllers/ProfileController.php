@@ -9,4 +9,7 @@ class ProfileController extends Controller
     public function profile(){
         return view('profile');
     }
+    public function pembayaran(){
+        return view('pembayaran');
+    }
 }
