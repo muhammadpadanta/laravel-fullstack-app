@@ -30,3 +30,4 @@ Route::get('/list', [ListBarangController::class, 'listBarang'])->name('listBara
 Route::get('/register', [RegisterController::class, 'register'])->name('register');
 Route::get('/profile', [ProfileController::class, 'profile'])->name('profile');
 Route::get('/pembayaran', [ProfileController::class, 'pembayaran'])->name('pembayaran');
+Route::get('/editProfile', [ProfileController::class, 'editProfile'])->name('editProfile');

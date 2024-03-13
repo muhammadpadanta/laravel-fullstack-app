@@ -12,4 +12,7 @@ class ProfileController extends Controller
     public function pembayaran(){
         return view('pembayaran');
     }
+    public function editProfile(){
+        return view('editProfile');
+    }
 }
