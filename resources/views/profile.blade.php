@@ -14,16 +14,19 @@
   <nav class="bg-white  p-4 text-white bg-opacity-30 backdrop-blur-lg">
     <div class="container mx-auto flex items-center justify-between">
         <div>
-            <a href="#" class="font-bold text-xl">1st Symphony</a>
+            <a href="/" class="font-bold text-xl">1st Symphony</a>
         </div>
         <div class="space-x-4">
-            <a href="#" class="hover:text-gray-300">Home</a>
-            <a href="#" class="hover:text-gray-300">Tikets</a>
+            <a href="dashboard" class="hover:text-gray-300">Home</a>
+            <a href="list" class="hover:text-gray-300">Tikets</a>
             <a href="#" class="hover:text-gray-300">Contact</a>
           </div>
-          <a href="#" class="flex items-center hover:text-gray-300">
+          <a href="pembayaran" class="flex items-center hover:text-gray-300">
               
-              Account
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+</svg>
+
           </a>
     </div>
 </nav>
@@ -66,7 +69,7 @@
               </ul>
               <div class="m-3 flex items-end justify-end ">
 
-                <a href="#" class="bg-blue-500 hover:bg-blue-600 shadow-md text-white py-2 px-4 rounded m-3">
+                <a href="/editProfile" class="bg-blue-500 hover:bg-blue-600 shadow-md text-white py-2 px-4 rounded m-3">
                   Edit
                 </a>
                 <a href="#" class="bg-green-500 hover:bg-green-600 shadow-md text-white py-2 px-4 rounded m-3">
