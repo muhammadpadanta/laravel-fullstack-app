@@ -14,11 +14,11 @@
   <nav class="bg-white p-4 text-white bg-opacity-30 backdrop-blur-lg">
     <div class="container mx-auto flex items-center justify-between">
         <div>
-            <a href="#" class="font-bold text-xl">1st Symphony</a>
+            <a href="welcome" class="font-bold text-xl">1st Symphony</a>
         </div>
         <div class="space-x-4">
-            <a href="#" class="hover:text-gray-300">Home</a>
-            <a href="#" class="hover:text-gray-300">Tikets</a>
+        <a href="dashboard" class="hover:text-gray-300">Home</a>
+            <a href="list" class="hover:text-gray-300">Tikets</a>
             <a href="#" class="hover:text-gray-300">Contact</a>
           </div>
           <a href="pembayaran" class="flex items-center hover:text-gray-300">
@@ -43,7 +43,7 @@
   </div>
 
   <!-- Form Edit Data Profil -->
-  <form action="#" method="post">
+  <form >
       <div class="mb-4">
           <label for="editName" class="block text-sm font-medium text-gray-700">Nama</label>
           <input type="text" id="editName" name="editName" class="mt-1 p-2 border rounded w-full "
@@ -90,8 +90,14 @@
           <label for="editPhone" class="block text-sm font-medium text-gray-700">Photo Profile</label>
           <input type="file" id="editPhone" name="editPhone" class="mt-1 p-2 border rounded w-full">
       </div>
-      <button type="submit"
-          class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">Edit Profile</button>
+      <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 mr-2 rounded ">
+    Edit Profile
+</a>
+          <a href="/profile" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4  rounded ">
+    Kembali
+</a>
+
+          
   </form>
 
 </div>
