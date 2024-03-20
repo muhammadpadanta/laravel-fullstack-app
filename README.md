@@ -31,13 +31,20 @@ In addition to Laravel, we've utilized TailwindCSS, a utility-first CSS framewor
    git clone <repository-url>
    ```
 
-2. **Install Composer Dependencies**: Navigate to the newly cloned project directory and install Composer dependencies.
+2. **Install NPM Dependencies**: Because we are using @vite('resources/css/app.css') to Use TailwindCSS, User will need to do The following command. Make sure to use Two terminal one is for npm run dev and the other one for php artisan serve.
+
+   ```bash
+   npm install 
+   npm run dev
+   ```
+
+3. **Install Composer Dependencies**: Navigate to the newly cloned project directory and install Composer dependencies.
 
    ```bash
    composer install
    ```
 
-3. **Update Composer Autoload and Dependencies**:
+4. **Update Composer Autoload and Dependencies**:
    
    ```bash
    composer dump-autoload
