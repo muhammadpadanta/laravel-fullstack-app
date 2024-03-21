@@ -7,12 +7,12 @@ use Illuminate\Http\Request;
 class ProfileController extends Controller
 {
     public function profile(){
-        return view('profile');
+        return view('components.profile');
     }
     public function pembayaran(){
-        return view('pembayaran');
+        return view('components.pembayaran');
     }
     public function editProfile(){
-        return view('editProfile');
+        return view('components.editProfile');
     }
 }
