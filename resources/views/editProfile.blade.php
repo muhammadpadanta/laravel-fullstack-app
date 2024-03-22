@@ -34,7 +34,7 @@
   <!-- Foto Profil dan Edit Icon -->
   <div class="flex items-center justify-center mb-6">
       <div class="mr-4">
-          <img src="{{ asset('img/pp.png') }}" alt="Foto Profil" class="rounded-full h-24 w-24">
+          <img src="{{ asset('img/pp.png') }}" alt="Foto Profil" class="rounded-full h-60 w-60">
       </div>
       
   </div>
