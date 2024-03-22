@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Praise&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Thai:wght@100..900&display=swap" rel="stylesheet">
 
 <!-- custom css -->
     <style>
@@ -51,6 +52,15 @@
         font-family: "New Rocker", system-ui;
         font-weight: 400;
         font-style: normal;
+        }
+
+        .noto-serif thai-<uniquifier> {
+            font-family: "Noto Serif Thai", serif;
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
         }
 
     </style>

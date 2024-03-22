@@ -54,19 +54,19 @@
 
 </head>
 
-<body class="bg-gray-100 font-sans bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500  h-screen">
+<body >
 
 <nav>
     @include('components.navbar')
 </nav>
 
-  <div class="container mx-auto mt-8 p-8 bg-white bg-opacity-50 shadow-md max-w-2xl">
+  <div class="container mx-auto mt-8 p-8 bg-white bg-opacity-50 max-w-2xl mb-9 rounded">
 
     <!-- Detail Tiket -->
     <div class="mb-8">
-      <h1 class="text-2xl font-bold mb-4">Detail Tiket</h1>
+      <h1 class="text-2xl font-bold mb-4 noto-serif ">Detail Tiket</h1>
       <!-- Tambahkan detail tiket di sini -->
-      <div class="border p-4 rounded shadow-lg flex items-center ">
+      <div class="border-b-2 border-t-2 border-black p-4 rounded shadow-2xl flex items-center ">
           <div class="">
             <img src="{{ asset('img/roc.jfif') }}" alt="Gambar Event" class="rounded-lg h-40 q-40">
           </div>
@@ -82,8 +82,8 @@
     </div>
 
     <!-- Pembayaran -->
-    <div class="border p-4 rounded shadow-lg">
-        <h2 class="text-2xl font-bold mb-4">Pembayaran</h2>
+    <h2 class="text-2xl font-bold mb-4 noto-serif ">Pembayaran</h2>
+    <div class="border-b-2 border-t-2 border-black p-4 rounded shadow-2xl">
 
         <!-- Pilihan Jenis Pembayaran -->
         <div class="mb-4">
@@ -108,17 +108,17 @@
             <form action="#" method="post" enctype="multipart/form-data">
                 <div class="mb-4">
                     <label for="upload" class="block text-sm font-medium text-gray-700">Pilih File Foto</label>
-                    <input type="file" name="upload" id="upload" accept="image/*" class="mt-1 p-2 border rounded">
+                    <input type="file" name="upload" id="upload" accept="image/*" class="mt-1 p-2 border-b border-r shadow-lg rounded bg-gray-400">
                 </div>
                 <button type="submit"
-                    class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">Buy Tickets</button>
+                    class="btn hover:bg-gray-500">Buy Tickets</button>
             </form>
         </div>
     </div>
 
 </div>
 
-
+@include('components.footer')
 </body>
 
 </html>

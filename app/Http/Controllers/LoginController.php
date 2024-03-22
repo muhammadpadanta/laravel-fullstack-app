@@ -8,6 +8,6 @@ class LoginController extends Controller
 {
     public function showLogin()
     {
-        return view('login');
+        return view('components.login');
     }
 }

@@ -54,7 +54,7 @@
         
             <a href="/editProfile">
             <button class="btn btn-neutral ">Edit Profile</button>
-             </a>
+            </a>
         </div>
     </div>
 

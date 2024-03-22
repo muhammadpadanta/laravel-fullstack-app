@@ -54,14 +54,14 @@
 
 </head>
 
-<body >
+<body class="">
 
-  <nav>
-  @include('components.navbar')
+<nav>
+    @include('components.navbar')
 </nav>
 
 
-<div class="container mx-auto mt-8 p-8 bg-opacity-50 rounded-lg bg-white shadow-md max-w-2xl">
+<div class="container mx-auto mt-8 p-8 bg-opacity-50 rounded-lg bg-gray-500 shadow-md max-w-2xl mb-9">
 
   <!-- Foto Profil dan Edit Icon -->
   <div class="flex items-center justify-center mb-6">
@@ -74,55 +74,55 @@
   <!-- Form Edit Data Profil -->
   <form >
       <div class="mb-4">
-          <label for="editName" class="block text-sm font-medium text-gray-700">Nama</label>
+          <label for="editName" class="block text-sm font-medium text-white">Nama</label>
           <input type="text" id="editName" name="editName" class="mt-1 p-2 border rounded w-full "
               value="Nama Anda">
       </div>
       <div class="mb-4">
-          <label for="editName" class="block text-sm font-medium text-gray-700">Deskripsi Tentang Kamu</label>
-          <input type="text" id="editName" name="editName" class="mt-1 p-2 border rounded w-full"
+          <label for="editDesc" class="block text-sm font-medium text-white">Deskripsi Tentang Kamu</label>
+          <input type="text" id="editName" name="editDesc" class="mt-1 p-2 border rounded w-full"
               value="Students of Politeknik Negeri Batam">
       </div>
       <div class="mb-4">
-          <label for="editName" class="block text-sm font-medium text-gray-700">Username</label>
+          <label for="editName" class="block text-sm font-medium text-white">Username</label>
           <input type="text" id="editName" name="editName" class="mt-1 p-2 border rounded w-full"
               value="RyshaNidya__15">
       </div>
       <div class="mb-4">
-          <label for="editName" class="block text-sm font-medium text-gray-700">Jenis Kelamin</label>
+          <label for="editName" class="block text-sm font-medium text-white">Jenis Kelamin</label>
           <input type="radio" id="editName" name="jk" class="mt-1 p-2 border rounded mr-5"
               value="Perempuan" selected><span class="mr-5">Perempuan</span>
           <input type="radio" id="editName" name="jk" class="mt-1 p-2 border rounded mr-5"
               value="laki-laki"><span class="mr-5">Laki-laki</span>
       </div>
       <div class="mb-4">
-          <label for="editEmail" class="block text-sm font-medium text-gray-700">Tanggal Lahir</label>
+          <label for="editEmail" class="block text-sm font-medium text-white">Tanggal Lahir</label>
           <input type="date" id="editEmail" name="editEmail" class="mt-1 p-2 border rounded w-full"
               value="09/15/2004">
       </div>
       <div class="mb-4">
-          <label for="editEmail" class="block text-sm font-medium text-gray-700">Alamat</label>
+          <label for="editEmail" class="block text-sm font-medium text-white">Alamat</label>
           <textarea type="text" id="editEmail" name="editEmail" class="mt-1 p-2 border rounded w-full"
               >Kepulauan Riau, Batam Center</textarea>
       </div>
       <div class="mb-4">
-        <label for="editEmail" class="block text-sm font-medium text-gray-700">Email</label>
+        <label for="editEmail" class="block text-sm font-medium text-white">Email</label>
         <input type="email" id="editEmail" name="editEmail" class="mt-1 p-2 border rounded w-full"
             value="yurishaanindya154@gmail.com">
     </div>
       <div class="mb-4">
-          <label for="editPhone" class="block text-sm font-medium text-gray-700">Telepon</label>
+          <label for="editPhone" class="block text-sm font-medium text-white">Telepon</label>
           <input type="text" id="editPhone" name="editPhone" class="mt-1 p-2 border rounded w-full"
               value="(+62) 1234-5678">
       </div>
       <div class="mb-4">
-          <label for="editPhone" class="block text-sm font-medium text-gray-700">Photo Profile</label>
+          <label for="editPhone" class="block text-sm font-medium text-white">Photo Profile</label>
           <input type="file" id="editPhone" name="editPhone" class="mt-1 p-2 border rounded w-full">
       </div>
-      <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 mr-2 rounded ">
+      <a href="#" class="bg-gray-600 hover:bg-gray-400 text-white py-2 px-4 mr-2 rounded ">
     Edit Profile
 </a>
-          <a href="/profile" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4  rounded ">
+          <a href="/profile" class="bg-gray-600 hover:bg-gray-400 text-white py-2 px-4  rounded ">
     Kembali
 </a>
 
@@ -131,6 +131,7 @@
 
 </div>
 
+@include('components.footer')
 </body>
 
 </html>
