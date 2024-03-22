@@ -8,6 +8,6 @@ class ListBarangController extends Controller
 {
     public function listBarang()
     {
-        return view('listBarang');
+        return view('components.listBarang');
     }
 }

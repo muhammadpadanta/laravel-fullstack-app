@@ -2,30 +2,62 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  @vite('resources/css/app.css')
+    <!-- Install Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 
-    <title>Profil Saya</title>
+    <!-- Install DaisyUI CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Install Custom Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Praise&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
+
+<!-- custom css -->
+<style>
+       
+       :root {
+           --text-color: black; 
+       }
+
+       @media (prefers-color-scheme: dark) {
+           :root {
+               --text-color: white;
+           }
+       }
+
+       body {
+           
+           color: var(--text-color);
+       }
+
+     /* Custom Font dari google font */
+       .praise-regular {
+       font-family: "Praise", cursive;
+       font-weight: 400;
+       font-style: normal;
+       }
+
+       .fugaz-one-regular {
+       font-family: "Fugaz One", sans-serif;
+       font-weight: 400;
+       font-style: normal;
+       }
+
+       .new-rocker-regular {
+       font-family: "New Rocker", system-ui;
+       font-weight: 400;
+       font-style: normal;
+       }
+
+   </style>
+
 </head>
 
-<body class="bg-gray-100 font-sans bg-gradient-to-br from-blue-400 via-purple-500 to-pink-500  ">
+<body >
 
-  <nav class="bg-white p-4 text-white bg-opacity-30 backdrop-blur-lg">
-    <div class="container mx-auto flex items-center justify-between">
-        <div>
-            <a href="#" class="font-bold text-xl">1st Symphony</a>
-        </div>
-        <div class="space-x-4">
-            <a href="#" class="hover:text-gray-300">Home</a>
-            <a href="#" class="hover:text-gray-300">Tikets</a>
-            <a href="#" class="hover:text-gray-300">Contact</a>
-          </div>
-          <a href="#" class="flex items-center hover:text-gray-300">
-              
-              Account
-          </a>
-    </div>
+  <nav>
+  @include('components.navbar')
 </nav>
 
 
@@ -40,7 +72,7 @@
   </div>
 
   <!-- Form Edit Data Profil -->
-  <form action="#" method="post">
+  <form >
       <div class="mb-4">
           <label for="editName" class="block text-sm font-medium text-gray-700">Nama</label>
           <input type="text" id="editName" name="editName" class="mt-1 p-2 border rounded w-full "
@@ -87,8 +119,14 @@
           <label for="editPhone" class="block text-sm font-medium text-gray-700">Photo Profile</label>
           <input type="file" id="editPhone" name="editPhone" class="mt-1 p-2 border rounded w-full">
       </div>
-      <button type="submit"
-          class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">Edit Profile</button>
+      <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 mr-2 rounded ">
+    Edit Profile
+</a>
+          <a href="/profile" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4  rounded ">
+    Kembali
+</a>
+
+          
   </form>
 
 </div>
