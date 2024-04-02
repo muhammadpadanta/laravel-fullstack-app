@@ -14,7 +14,7 @@ Kelompok 1 PBL, Beranggotakan! 🚀
 <br>
 
 ## About the App
-
+<img align="center" alt="Coding" width="400" src="https://s12.gifyu.com/images/SVFbR.png">
 Our application is built using the Laravel PHP framework, which provides a solid foundation for developing web applications. Laravel offers a wide range of features, including a powerful routing system, database migrations, authentication, and much more, making it an ideal choice for building robust and scalable web applications.
 <br><br>
 In addition to Laravel, we've utilized TailwindCSS, a utility-first CSS framework that allows us to rapidly build custom designs without the need for writing traditional CSS. TailwindCSS provides a comprehensive set of pre-built components and utilities, enabling us to create beautiful and responsive user interfaces with ease.
@@ -26,22 +26,30 @@ To further enhance the design of our application, we've integrated DaisyUI, whic
 1. **Clone the Project**: Start by cloning the project from your friend's GitHub repository to your local machine.
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/muhammadpadanta/p5_proweb.git
    ```
 
-2. **Install Composer Dependencies**: Navigate to the newly cloned project directory and install Composer dependencies.
+2. **Navigate to the project directory**
+   ```bash
+   cd p5_proweb
+
+3. **Install Composer Dependencies**: Navigate to the newly cloned project directory and install Composer dependencies.
 
    ```bash
    composer install
    ```
 
-3. **Update Composer Autoload and Dependencies**:
+4. **Update Composer Autoload and Dependencies**
    
    ```bash
    composer dump-autoload
    composer update
    ```
 
+5. **Launch The App**
+   ```bash
+   php artisan serve
+   ```
 ## Handling Errors
 
 If you encounter errors, follow these steps:
@@ -68,9 +76,22 @@ If you encounter errors, follow these steps:
    ```bash
    php artisan serve
    ```
+## Contact
 
-5. **Check in Browser**:
+If you have any questions, suggestions, or feedback, feel free to reach out to us 
+<div align="left">
+   
 
-   Open your browser and navigate to the localhost server URL to verify the application is running correctly.
+   
+  <a href="mailto:mpadanta@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
+  </a>
+  <a href="https://discord.com/users/389223384048992266" target="_blank">
+    <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" />
+  </a>
+  <a href="https://muhammadpadanta.vercel.app/" target="_blank">
+     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" target="_blank" /> <!-- sqlite, safari, google-chrome are other good icon options -->
+  </a>
+</div>
 
 
